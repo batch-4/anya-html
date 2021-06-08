@@ -26,17 +26,17 @@ header ul {
 
 header h2 {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
 }
 header h1 {
     color: black;
     font-size: 45px;
-    text-align: center;
+    text-align: left;
     font-style: bold;
 }
 
 header p {
-    color: ;
+    text-align: left;
 }
 
 .color1 {
@@ -48,11 +48,11 @@ header p {
 }
 
 .color3 {
-    background-color: #E9C46A;
+    background-color: #d7e3fc;
 }
 
 .color4 {
-    background-color: #F4A261;
+    background-color: #E9C46A;
 }
 
 .color5 {
