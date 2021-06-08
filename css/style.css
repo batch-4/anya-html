@@ -29,8 +29,8 @@ header h2 {
     text-align: left;
 }
 header h1 {
-    color: black;
-    font-size: 45px;
+    color: #6930c3;
+    font-size: 55px;
     text-align: left;
     font-style: bold;
 }
@@ -44,7 +44,7 @@ header p {
 }
 
 .color2 {
-    background-color: #2A9D8F
+    background-color: #c1d3fe
 }
 
 .color3 {
@@ -62,4 +62,9 @@ header p {
 .customIntro {
     position: relative;
     padding-top: 10%;
+}
+
+.btna-primary {
+    background-color: #6930c3;
+    
 }
