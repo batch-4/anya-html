@@ -24,8 +24,42 @@ header ul {
     list-style: none;
 }
 
-h1 {
-    color: black;
-    font-size: 75px;
+header h2 {
+    font-size: 20px;
     text-align: center;
+}
+header h1 {
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    font-style: bold;
+}
+
+header p {
+    color: ;
+}
+
+.color1 {
+    background-color: #264653;
+}
+
+.color2 {
+    background-color: #2A9D8F
+}
+
+.color3 {
+    background-color: #E9C46A;
+}
+
+.color4 {
+    background-color: #F4A261;
+}
+
+.color5 {
+    background-color: #;
+}
+
+.customIntro {
+    position: relative;
+    padding-top: 10%;
 }
