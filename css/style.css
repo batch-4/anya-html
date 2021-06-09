@@ -1,3 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+   
+  .container-custom {
+    height: 100vh;
+  }
+  .container-custom img {
+    width: 100%;
+    position: absolute;
+    height: 110vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .main-title {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 6rem;
+    transform: translate(-50%, -30%);
+  }
+  
+  .content {
+    width: 100%;
+    background:  #BDB2FF;
+    min-height: 65vh;
+    z-index: 2;
+    position: absolute;
+  }
+
+
 body {
     margin: 0%;
 }
@@ -40,7 +75,7 @@ header p {
 }
 
 .color1 {
-    background-color: #264653;
+    background-color: #dee2ff;
 }
 
 .color2 {
@@ -52,11 +87,11 @@ header p {
 }
 
 .color4 {
-    background-color: #E9C46A;
+    background-color: #ccdbfd;
 }
 
 .color5 {
-    background-color: #;
+    background-color: #6930c3;
 }
 
 .customIntro {
@@ -68,3 +103,99 @@ header p {
     background-color: #6930c3;
     
 }
+
+.forHover {
+transition: all 0.5s;
+cursor: pointer;
+}
+
+.forHover:hover {
+    transform: scale(1.5);
+    
+}
+
+.forHoverCard {
+    transition: 0.3s ease;
+}
+.forHoverCard:hover {
+    transform: scale(1.1);
+    background-color: #A0C4FF;
+    border-radius: 1rem;
+    
+}
+
+.btna-primary {
+    background-color: #BDB2FF;
+    color: #6930c3;
+    border-color: #BDB2FF;
+    text-decoration: none;
+    transition: all 0.5s;
+    padding: 10px;
+    border-radius: 2rem;
+    
+}
+
+.btna-primary:hover {
+    background-color: white;
+    color: #6930c3;
+    border-color: white;
+    text-decoration: none;
+   
+}
+
+
+.educationText {
+    font-size: 2rem;
+    
+    text-align: left;
+    
+    padding: 10px;
+
+    
+}
+
+.education-container {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 50%;
+    border-radius: 4rem;
+    background-color: #A0C4FF;
+    transition: 0.5s ease;
+}
+
+.education-container:hover {
+    padding-left: 5%;
+}
+
+.education-main img {
+    position: absolute;
+    width: 30%;
+    top: 100%;
+    right: 10%;
+}
+
+
+/* nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    padding: 3rem 10rem;
+    justify-content: space-between;
+  } */
+ 
+  
+  .text {
+    padding: 2rem 20rem;
+    font-size: 1.1rem;
+  }
+
+  .showText {
+opacity: 0;
+transition: 0.5s ease;
+  }
+
+  .showText:hover {
+      opacity: 1;
+  }
+
+  
